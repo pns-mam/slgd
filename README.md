@@ -65,26 +65,39 @@ Des exemples seront donnés afin d'aider à démarrer.
 Il est recommandé d'utiliser un environnement virtuel afin de s'habituer aux bonnes pratiques industrielles d'une part, et de ne pas polluer son environnement d'autres part. Les informations données ci-dessous sont pensées pour une utilisation sur une machine linux. Quelques adaptations seront nécessaires pour les faire fonctionner sur des machines windows -- ce qu'on ne recommande pas. 
 
 ### conda 
-> conda create -n SLGD # Stands for Systemes Lineares en Grandes Dimensions
-> conda actiate SLGD # Permet de s'isoler de l'environnement local pour se mettre dans l'environnement dédié que l'on vient de créer
-> conda install scipy numpy matplotlib # Installe les librairies pour l'environnement actif uniquement
+'''
+conda create -n SLGD # Stands for Systemes Lineares en Grandes Dimensions
+conda actiate SLGD # Permet de s'isoler de l'environnement local pour se mettre dans l'environnement dédié que l'on vient de créer
+conda install scipy numpy matplotlib # Installe les librairies pour l'environnement actif uniquement
+'''
 
 On peut ressortir d'un environnement fraichement créer via 
-> conda deactivate
 
-On script python peut ensuite être appelé avec 
-> python nom_de_script.py
+'''
+conda deactivate
+'''
+
+Un script python peut ensuite être appelé avec 
+
+'''
+python nom_de_script.py
+'''
 
 ### venv
 
 Une documentation peut être lue [ici](https://python.land/virtual-environments/virtualenv). 
-> python -m venv /path/to/new/virtual/environment # Usually a local folder at root folder
-> source /path/to/new/virtual/environment/bin/activate
-> pip install scipy numpy matplotlib 
+
+'''
+python -m venv /path/to/new/virtual/environment # Usually a local folder at root folder
+source /path/to/new/virtual/environment/bin/activate
+pip install scipy numpy matplotlib 
+'''
 
 De même, on sort de l'environnement via 
-> deactivate
 
+'''
+deactivate
+'''
 
 
 ## Misc
