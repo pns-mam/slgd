@@ -104,5 +104,6 @@ deactivate
 
 ## Misc
 
+- [Canal slack #slgd de PNS-MAM3](https://pns-mam3.slack.com/archives/C086WTGU79D/p1736147652074869)
 - [discussions](https://github.com/pns-mam/slgd/discussions/1)
 
