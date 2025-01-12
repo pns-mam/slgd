@@ -1,5 +1,7 @@
-# slgd
-Systèmes linéaires en grande dimension 
+![PNS](logo-pns.png)
+## MAM3 - SLGD
+# Systèmes linéaires en grande dimension 
+# 2024-25
 
 6 Janvier 2025 - 10 Javier 2025
 
