@@ -3,7 +3,7 @@
 # Systèmes linéaires en grande dimension 
 # 2025 - 2026
 
-5 Janvier 2025 - 9 Javier 2025
+5 Janvier 2025 - 9 Janvier 2025
 
 ## Intervenants
 
@@ -55,7 +55,7 @@ Livrables suivants sont attendus par mail AVANT le début des soutenances (vendr
 * Tous les codes utilisés pour générer toutes les figures / résultats. 
 * Une courte présentation, utilisée comme support.
 
-La soutenance ne durera pas plus de 15 minutes par groupe  avec pas plus de 7 à 10 minutes de présentation et le reste dédié à la discussion.
+La soutenance ne durera pas plus de 15 minutes par groupe avec 7 à 10 minutes de présentation et le reste dédié à la discussion.
 
 ## Environnement python
 
@@ -69,7 +69,7 @@ Il est recommandé d'utiliser un environnement virtuel afin de s'habituer aux bo
 ### conda 
 ```
 conda create -n SLGD # Stands for Systemes Lineares en Grandes Dimensions
-conda actiate SLGD # Permet de s'isoler de l'environnement local pour se mettre dans l'environnement dédié que l'on vient de créer
+conda activate SLGD # Permet de s'isoler de l'environnement local pour se mettre dans l'environnement dédié que l'on vient de créer
 conda install scipy numpy matplotlib # Installe les librairies pour l'environnement actif uniquement
 ```
 
