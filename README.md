@@ -68,7 +68,7 @@ Il est recommandé d'utiliser un environnement virtuel afin de s'habituer aux bo
 
 ### conda 
 ```
-conda create -n SLGD # Stands for Systemes Lineares en Grandes Dimensions
+conda create -n SLGD # Stands for Systemes Lineaires en Grandes Dimensions
 conda activate SLGD # Permet de s'isoler de l'environnement local pour se mettre dans l'environnement dédié que l'on vient de créer
 conda install scipy numpy matplotlib # Installe les librairies pour l'environnement actif uniquement
 ```
