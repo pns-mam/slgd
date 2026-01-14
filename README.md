@@ -3,7 +3,7 @@
 # Systèmes linéaires en grande dimension 
 # 2025 - 2026
 
-5 Janvier 2025 - 9 Janvier 2025
+5 Janvier 2026 - 9 Janvier 2026
 
 ## Intervenants
 
